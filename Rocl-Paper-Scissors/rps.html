@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Papers-Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="heading">
+            <h1 class="h">Rock-Papers-Scissors</h1>
+        </div>
+    </nav>
+
+    <div class="btns">
+        <button class="select" id="rock">
+            <img src="images/r.jpeg">
+        </button>
+        <button class="select" id="paper">
+            <img src="images/p.jpeg">
+        </button>
+        <button class="select" id="scissors">
+            <img src="images/s.jpeg">
+        </button>
+    </div>
+    
+    <div class="score-board">
+        <div class="user-score">
+            <p id="user">0</p>
+            <p>You</p>
+        </div>
+        <div class="comp-score">
+            <p id="comp">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <div class="msg-box">
+        <p id="msg">Select your move</p>
+    </div>
+
+    <script src="rps.js"></script>
+</body>
+</html>
