@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(219, 199, 85);
+}
+
+.nav-bar{
+    height: 80px;
+    background-color: gold;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+    padding: 20px;
+}
+
+.btns{
+    justify-self: center;
+    padding: 50px;
+}
+
+.select{
+    border-radius: 100px;
+}
+
+.select img{
+    color: darkgoldenrod;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.score-board{
+    justify-self: center;
+    display: flex;
+}
+
+.user-score{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.comp-score{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.msg-box{
+    justify-self: center;
+    background-color: goldenrod;
+    padding: 20px;
+    border-radius: 2rem;
+}
+
+#msg{
+    font-size: 30px;
+}

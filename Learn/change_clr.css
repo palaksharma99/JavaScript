@@ -1,0 +1,17 @@
+*body{
+    background-color: white;
+}
+#btn{
+    color: black;
+    background-color: white;
+    border: 5px dotted black;
+}
+
+.box{
+    border: 2px solid red;
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+}
